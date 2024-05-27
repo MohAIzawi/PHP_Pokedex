@@ -1,0 +1,221 @@
+* {
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.pokemon {
+    
+    padding: 10px;
+    box-shadow: 0px 0px 10px white;
+    text-align: center;
+}
+
+.pokemon_info {
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 5%;
+    position: relative;
+    padding: 30px;
+}
+
+
+.type-normal {
+    font-family: 'Arial', sans-serif;
+    background-color: #A8A878;
+    color: white;
+    padding: 5px;
+}
+
+.type-fire {
+    font-family: 'Arial', sans-serif;
+    background-color: #F08030;
+    color: white;
+    padding: 5px;
+}
+
+.type-water {
+    font-family: 'Arial', sans-serif;
+    background-color: #6890F0;
+    color: white;
+    padding: 5px;
+}
+
+.type-grass {
+    font-family: 'Arial', sans-serif;
+    background-color: #78C850;
+    color: white;
+    padding: 5px;
+}
+
+.type-electric {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8D030;
+    color: white;
+    padding: 5px;
+}
+
+.type-ice {
+    font-family: 'Arial', sans-serif;
+    background-color: #98D8D8;
+    color: white;
+    padding: 5px;
+}
+
+.type-fighting {
+    font-family: 'Arial', sans-serif;
+    background-color: #C03028;
+    color: white;
+    padding: 5px;
+}
+
+.type-poison {
+    font-family: 'Arial', sans-serif;
+    background-color: #A040A0;
+    color: white;
+    padding: 5px;
+}
+
+.type-ground {
+    font-family: 'Arial', sans-serif;
+    background-color: #E0C068;
+    color: white;
+    padding: 5px;
+}
+
+.type-flying {
+    font-family: 'Arial', sans-serif;
+    background-color: #A890F0;
+    color: white;
+    padding: 5px;
+}
+
+.type-psychic {
+    font-family: 'Arial', sans-serif;
+    background-color: #F85888;
+    color: white;
+    padding: 5px;
+}
+
+.type-bug {
+    font-family: 'Arial', sans-serif;
+    background-color: #A8B820;
+    color: white;
+    padding: 5px;
+}
+
+.type-rock {
+    font-family: 'Arial', sans-serif;
+    background-color: #B8A038;
+    color: white;
+    padding: 5px;
+}
+
+.type-ghost {
+    font-family: 'Arial', sans-serif;
+    background-color: #705898;
+    color: white;
+    padding: 5px;
+}
+
+.type-dark {
+    font-family: 'Arial', sans-serif;
+    background-color: #705848;
+    color: white;
+    padding: 5px;
+}
+
+.type-steel {
+    font-family: 'Arial', sans-serif;
+    background-color: #B8B8D0;
+    color: white;
+    padding: 5px;
+}
+
+.type-fairy {
+    font-family: 'Arial', sans-serif;
+    background-color: #EE99AC;
+    color: white;
+    padding: 5px;
+}
+
+.type-dragon {
+    font-family: 'Arial', sans-serif;
+    background-color: #7038F8;
+    color: white;
+    padding: 5px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer2 {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.stat {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.stat-HP {
+    background-color: #FF0000; /* Red */
+}
+
+.stat-Attack {
+    background-color: #FFA500; /* Orange */
+}
+
+
+.stat-Defense {
+    background-color: #FFD700; /* Gold */
+}
+
+.stat-SpAtk {
+    background-color: #00FF00; /* Lime */
+}
+
+.stat-SpDef {
+    background-color: #0000FF; /* Blue */
+}
+
+.stat-Speed {
+    background-color: #4B0082; /* Indigo */
+}
+
+.stat-Generation {
+    background-color: #9400D3; /* DarkViolet */
+}
+
+.stat-Legendary {
+    background-color: #FF1493; /* DeepPink */
+}
